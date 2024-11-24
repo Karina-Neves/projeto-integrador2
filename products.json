@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name":" Cupcake de Chocolate",
+        "price": 7.50,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Cupcake de Baunilha",
+        "price": 6.00,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" Cupcake de Chocolate Branco",
+        "price": 7.00,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" Cupcake de Morango",
+        "price": 6.50,
+        "image": "image/4.png"
+    }
+]

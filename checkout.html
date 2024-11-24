@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra - Cake Mania</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Cake Mania</div>
+        <div class="header-buttons">
+            <button onclick="window.location.href='index.html'" class="inicio-btn">Início</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <form>
+            <h2>Finalizar Compra</h2>
+            <div class="row">
+                <div class="column">
+                    <h3 class="title">Endereço de Entrega</h3>
+                    <div class="input-box">
+                        <span>Rua :</span>
+                        <input type="text" placeholder="Digite o nome da rua" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Número :</span>
+                        <input type="text" placeholder="Digite o número da casa">
+                    </div>
+                    <div class="input-box">
+                        <span>Bairro :</span>
+                        <input type="text" placeholder="Digite o nome do bairro">
+                    </div>
+                    <div class="input-box">
+                        <span>Cidade :</span>
+                        <input type="text" placeholder="Digite o nome da cidade">
+                    </div>
+
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Estado :</span>
+                            <input type="text" placeholder="Digite o estado">
+                        </div>
+                        <div class="input-box">
+                            <span>CEP :</span>
+                            <input type="text" placeholder="Digite o CEP">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3 class="title">Pagamento</h3>
+                    <div class="input-box">
+                        <span>Cartões aceitos :</span>
+                        <img src="image/imgcards.png" alt="">
+                    </div>
+                    <div class="input-box">
+                        <span>Nome no cartão :</span>
+                        <input type="text" placeholder="Digite o nome como está no cartão">
+                    </div>
+                    <div class="input-box">
+                        <span>Número do cartão :</span>
+                        <input type="text" placeholder="1111 2222 3333 4444">
+                    </div>
+                    <div class="input-box">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="123">
+                    </div>
+                    <div class="input-box">
+                        <span>Validade :</span>
+                        <input type="text" placeholder="12/12/2025">
+                    </div>
+                </div>
+            </div>
+            
+            <button type="button" onclick="window.location.href='obrigada.html'" class="btn">Finalizar Compra</button>
+        </form>
+        
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Informações sobre a empresa:<br>Cake Mania é uma empresa fictícia criada por Karina Neves como requisito para o projeto transdisciplinar em Ciência da Computação.</p>
+     </footer>
+
+</body>
+</html>
